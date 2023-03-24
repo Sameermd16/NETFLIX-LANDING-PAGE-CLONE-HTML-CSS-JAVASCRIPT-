@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #e50914;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #000;
+    color: #999;
+}
+ul {
+    list-style: none;
+}
+h1, h2, h3, h4 {
+    color: #fff;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.showcase{
+    height: 93vh;
+    border: 1px solid white;
+    background: url("https://i.ibb.co/vXqDmnh/background.jpg") no-repeat center center / cover;
+    position: relative;
+}
+/* .showcase_top {
+    position: relative;
+    height: 90px;
+    border: 1px solid blue;
+}
+.showcase_top > img {
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} */
+.showcase_top > img {
+    width: 200px;
+}
+.showcase_top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 450px;
+    padding: 20px;
+}
+
+/* buttons */
+.btn {
+    display: inline-block;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+    border-radius: 2px;
+}
+.btn_rounded {
+    margin-right: 20px;
+    border-radius: 5px;
+}
