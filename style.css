@@ -112,7 +112,38 @@ a{
     text-transform: uppercase;
     padding: 12px;
 }
-/* text  */
+/* tab 2  */
+
+.tab2_content {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+.top_content {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.top_content > p {
+    font-size: 25px;
+    flex: 0.9;
+}
+.top_content > a{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.tab2_content > div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.tab2_content > div > p {
+    color: #999;
+}
+
+/* text styles */
 
 .tab1_text > p {
     font-size: 30px;
