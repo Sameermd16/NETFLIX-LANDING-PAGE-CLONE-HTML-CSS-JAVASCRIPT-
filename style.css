@@ -142,6 +142,10 @@ a{
 .tab2_content > div > p {
     color: #999;
 }
+.tab2_content > div > h4 {
+    font-size: 20px;
+    font-weight: 300;
+}
 
 /* text styles */
 
