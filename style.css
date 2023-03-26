@@ -138,6 +138,7 @@ a{
     display: flex;
     flex-direction: column;
     gap: 15px;
+    justify-content: center;
 }
 .tab2_content > div > p {
     color: #999;
@@ -160,6 +161,35 @@ a{
     margin: auto;
     overflow: hidden;
     padding: 0 2rem;
+}
+
+/* table */
+.table {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.tab3_top {
+    text-align: center;
+}
+
+.table > thead > tr > th {
+    text-transform: uppercase;
+    padding: 10px;
+}
+.table > tbody > tr > td {
+    color: #999;
+    padding: 10px;
+}
+.table > tbody > tr {
+    text-align: center;
+}
+.table > tbody > tr > td:first-child {
+    text-align: left;
+}
+.table > tbody > tr:nth-child(odd) {
+    background-color: #222;
 }
 
 /* buttons */
